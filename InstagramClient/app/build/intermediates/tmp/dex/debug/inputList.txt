@@ -1,0 +1,7 @@
+/Users/babusr/Documents/Android/AndroidDevelopment/InstagramClient/app/build/intermediates/classes/debug
+/Users/babusr/Documents/Android/AndroidDevelopment/InstagramClient/app/build/intermediates/pre-dexed/debug/support-annotations-21.0.3-6873cb211d00e76b871d03b3734fa94ebd4b1060.jar
+/Users/babusr/Documents/Android/AndroidDevelopment/InstagramClient/app/build/intermediates/pre-dexed/debug/android-async-http-1.4.5-8db0e1c41576a36076c299134f39e7aa840c2d01.jar
+/Users/babusr/Documents/Android/AndroidDevelopment/InstagramClient/app/build/intermediates/pre-dexed/debug/picasso-2.5.0-250ebae12b7dc17f0ac6c05c62d119b3a772a65e.jar
+/Users/babusr/Documents/Android/AndroidDevelopment/InstagramClient/app/build/intermediates/pre-dexed/debug/internal_impl-21.0.3-4dc384048cf1509a574a8f9deae2af0e1809ae0c.jar
+/Users/babusr/Documents/Android/AndroidDevelopment/InstagramClient/app/build/intermediates/pre-dexed/debug/classes-7b6eba3fab8a210622ad3ab2cf4e3e0552050613.jar
+/Users/babusr/Documents/Android/AndroidDevelopment/InstagramClient/app/build/intermediates/pre-dexed/debug/classes-ae1a6ced0a499ad2f6d132293427cb66c3aa1fea.jar
