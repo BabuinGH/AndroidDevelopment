@@ -1,0 +1,7 @@
+/Users/babusr/Documents/Android/AndroidDevelopment/GoogleImageSearch/app/build/intermediates/classes/debug
+/Users/babusr/Documents/Android/AndroidDevelopment/GoogleImageSearch/app/build/intermediates/pre-dexed/debug/support-annotations-21.0.3-6873cb211d00e76b871d03b3734fa94ebd4b1060.jar
+/Users/babusr/Documents/Android/AndroidDevelopment/GoogleImageSearch/app/build/intermediates/pre-dexed/debug/android-async-http-1.4.5-8db0e1c41576a36076c299134f39e7aa840c2d01.jar
+/Users/babusr/Documents/Android/AndroidDevelopment/GoogleImageSearch/app/build/intermediates/pre-dexed/debug/picasso-2.5.0-250ebae12b7dc17f0ac6c05c62d119b3a772a65e.jar
+/Users/babusr/Documents/Android/AndroidDevelopment/GoogleImageSearch/app/build/intermediates/pre-dexed/debug/internal_impl-21.0.3-cdf889995dc722b123bbe3dbc3ea4fa450a8f8ce.jar
+/Users/babusr/Documents/Android/AndroidDevelopment/GoogleImageSearch/app/build/intermediates/pre-dexed/debug/classes-a2f8536d0e666216cb3609f470e5e38b63e1a51a.jar
+/Users/babusr/Documents/Android/AndroidDevelopment/GoogleImageSearch/app/build/intermediates/pre-dexed/debug/classes-3a525b0bd71c51a4bb83ea12f133a69c5fa507c7.jar
