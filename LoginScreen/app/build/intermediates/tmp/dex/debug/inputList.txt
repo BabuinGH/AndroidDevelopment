@@ -1,0 +1,5 @@
+/Users/babusr/Documents/Android/AndroidDevelopment/LoginScreen/app/build/intermediates/classes/debug
+/Users/babusr/Documents/Android/AndroidDevelopment/LoginScreen/app/build/intermediates/pre-dexed/debug/support-annotations-21.0.3-6873cb211d00e76b871d03b3734fa94ebd4b1060.jar
+/Users/babusr/Documents/Android/AndroidDevelopment/LoginScreen/app/build/intermediates/pre-dexed/debug/internal_impl-21.0.3-ca890a8a8aa98954e5e06e9ca7de92b79c92abd2.jar
+/Users/babusr/Documents/Android/AndroidDevelopment/LoginScreen/app/build/intermediates/pre-dexed/debug/classes-6d8b47aa8978ff82707cf5b5662de2fb86b0fdc4.jar
+/Users/babusr/Documents/Android/AndroidDevelopment/LoginScreen/app/build/intermediates/pre-dexed/debug/classes-266713fe7ac1fb309df42704c5fdaebed04f3e41.jar

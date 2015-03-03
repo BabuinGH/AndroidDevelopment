@@ -1,9 +1,14 @@
 package com.example.babusr.loginscreen;
 
-import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
+import android.support.v7.app.ActionBarActivity;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.ArrayAdapter;
+import android.widget.ListView;
+
+import java.util.ArrayList;
+import java.util.List;
 
 
 public class StreamActivity extends ActionBarActivity {
@@ -12,6 +17,25 @@ public class StreamActivity extends ActionBarActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_stream);
+
+        ListView actionList = (ListView) findViewById(R.id.lvActionItems);
+
+        List listA = new ArrayList();
+        listA.add("ActionItem 1");
+        listA.add("ActionItem 2");
+        listA.add("ActionItem 3");
+
+        ArrayAdapter<String> arrayAdapter = new ArrayAdapter<String>(
+                this,
+                android.R.layout.simple_list_item_1,
+                listA
+        );
+
+        actionList.setAdapter(arrayAdapter);
+
+
+
+
     }
 
 
