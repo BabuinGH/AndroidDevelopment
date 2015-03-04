@@ -13,6 +13,7 @@ import android.widget.GridView;
 
 import com.example.babusr.googleimagesearch.R;
 import com.example.babusr.googleimagesearch.adapters.ImageResultsAdapter;
+import com.example.babusr.googleimagesearch.listener.EndlessScrollListener;
 import com.example.babusr.googleimagesearch.models.ImageResult;
 import com.loopj.android.http.AsyncHttpClient;
 import com.loopj.android.http.JsonHttpResponseHandler;
@@ -31,6 +32,12 @@ public class SearchActivity extends ActionBarActivity {
     private GridView gvResults;
     private ArrayList<ImageResult> imageResults;
     private ImageResultsAdapter aImageResults;
+    private EditText etSiteFilter;
+    private final int REQUEST_CODE = 20;
+    private String colorFilter;
+    private String siteName;
+    private String imageSize;
+    private String imageType;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -43,6 +50,40 @@ public class SearchActivity extends ActionBarActivity {
         aImageResults = new ImageResultsAdapter(this, imageResults);
         //Link the adapter to the Adapterview(gridview)
         gvResults.setAdapter(aImageResults);
+        gvResults.setOnScrollListener(new EndlessScrollListener() {
+            @Override
+            public void onLoadMore(int page, int totalItemsCount) {
+                LoadMoreData(page);
+
+            }
+        });
+
+    }
+
+    //Append more data into the adapter
+    private void LoadMoreData(int page) {
+        String query = etQuery.getText().toString();
+        //HTTP client
+        AsyncHttpClient client = new AsyncHttpClient();
+        String searchUrl = "https://ajax.googleapis.com/ajax/services/search/images?v=1.0&q="+query+"&start=" + (page * 4);
+        //Get response
+        client.get(searchUrl, new JsonHttpResponseHandler(){
+            @Override
+            public void onSuccess(int statusCode, Header[] headers, JSONObject response) {
+                //Log.d("DEBUG", response.toString());
+                JSONArray imageResultsJson = null;
+                try {
+                    imageResultsJson = response.getJSONObject("responseData").getJSONArray("results");
+                    //imageResults.clear(); // clear the existing images from the array
+                    aImageResults.addAll(ImageResult.fromJSONArray(imageResultsJson));
+                    Log.i("INFO", imageResults.toString());
+                } catch (JSONException e) {
+                    e.printStackTrace();
+                }
+
+
+            }
+        });
     }
 
     private void setupViews(){
@@ -64,35 +105,46 @@ public class SearchActivity extends ActionBarActivity {
         });
     }
 
-    public void onImageSearch(View v){
+    @Override
+    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+        if (resultCode == RESULT_OK && requestCode == REQUEST_CODE){
+            siteName = data.getExtras().getString("SiteFilter");
+            imageSize = data.getExtras().getString("ImageSize");
+            colorFilter = data.getExtras().getString("ColorFilter");
+            imageType = data.getExtras().getString("ImageType");
+        }
+    }
+
+    public void onImageSearch(View v) {
         String query = etQuery.getText().toString();
-        //Toast.makeText(this,"Search for:" + query,Toast.LENGTH_SHORT).show();
         //HTTPClient
         AsyncHttpClient client = new AsyncHttpClient();
-        //SearchUrl => https://ajax.googleapis.com/ajax/services/search/images?v=1.0&q=android&&rsz=8
-        String searchUrl = "https://ajax.googleapis.com/ajax/services/search/images?v=1.0&q="+query+"&rsz=8";
+
+        //https://ajax.googleapis.com/ajax/services/search/images?v=1.0&q=car&rsz=8&imgcolor=blue&imgsz=small&imgtype=photo&as_sitesearch=yahoo.com
+        //String searchUrl = null;
+            //searchUrl = "https://ajax.googleapis.com/ajax/services/search/images?v=1.0&q=" + query + "&rsz=8";
+        String searchUrl = "https://ajax.googleapis.com/ajax/services/search/images?v=1.0&q=" +
+               query + "&rsz=8&imgcolor=" + colorFilter + "&imgsz=" + imageSize + "&imgtype=" + imageType + "&as_sitesearch=" + siteName;
+
         //Get response
-        client.get(searchUrl, new JsonHttpResponseHandler(){
+        client.get(searchUrl, new JsonHttpResponseHandler() {
             @Override
             public void onSuccess(int statusCode, Header[] headers, JSONObject response) {
-                Log.d("DEBUG", response.toString());
+                //Log.d("DEBUG", response.toString());
                 JSONArray imageResultsJson = null;
                 try {
                     imageResultsJson = response.getJSONObject("responseData").getJSONArray("results");
                     imageResults.clear(); // clear the existing images from the array
-                    //imageResults.addAll(ImageResult.fromJSONArray(imageResultsJson));
                     aImageResults.addAll(ImageResult.fromJSONArray(imageResultsJson));
                     Log.i("INFO", imageResults.toString());
                 } catch (JSONException e) {
                     e.printStackTrace();
                 }
 
-
             }
         });
-
-
     }
+
 
 
     @Override
@@ -111,9 +163,12 @@ public class SearchActivity extends ActionBarActivity {
 
         //noinspection SimplifiableIfStatement
         if (id == R.id.action_settings) {
+
+            Intent filter = new Intent(SearchActivity.this,AdvanceSearchActivity.class);
+            filter.putExtra("mode",2);
+            startActivityForResult(filter, REQUEST_CODE);
             return true;
         }
-
-        return super.onOptionsItemSelected(item);
+      return super.onOptionsItemSelected(item);
     }
 }

@@ -26,6 +26,10 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.babusr.googleimagesearch.activities.SearchActivity" />
         </activity>
+        <activity
+            android:name=".activities.AdvanceSearchActivity"
+            android:label="@string/title_activity_advance_search" >
+        </activity>
     </application>
 
 </manifest>
