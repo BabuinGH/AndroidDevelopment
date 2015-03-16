@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/babusr/.gradle/caches/modules-2/files-2.1/com.loopj.android/android-async-http/1.4.6/a845a88238be0b5be9d238652c1bc0605ef91f52/android-async-http-1.4.6.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="a845a88238be0b5be9d238652c1bc0605ef91f52">
+        <dex dex="/Users/babusr/Documents/Android/AndroidDevelopment/MySimpleTweets/app/build/intermediates/pre-dexed/debug/android-async-http-1.4.6-c07408333372aeab89bea7d84482f36e39e97076.jar" />
+    </item>
+    <item
+        jar="/Users/babusr/Downloads/android-sdk-macosx/extras/android/m2repository/com/android/support/support-annotations/21.0.0/support-annotations-21.0.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="1a578b9607b36266c63d43a4fa0ab5664dbe911e">
+        <dex dex="/Users/babusr/Documents/Android/AndroidDevelopment/MySimpleTweets/app/build/intermediates/pre-dexed/debug/support-annotations-21.0.0-ecf1b2f65460d346b83e0471b8cb38520a6d87c3.jar" />
+    </item>
+    <item
+        jar="/Users/babusr/.gradle/caches/modules-2/files-2.1/com.michaelpardo/activeandroid/3.1.0-SNAPSHOT/4ab7b0182975bc57c49efc5e0b3baa4a10e4ec08/activeandroid-3.1.0-SNAPSHOT.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4ab7b0182975bc57c49efc5e0b3baa4a10e4ec08">
+        <dex dex="/Users/babusr/Documents/Android/AndroidDevelopment/MySimpleTweets/app/build/intermediates/pre-dexed/debug/activeandroid-3.1.0-SNAPSHOT-1f5b6dd73c331445176f853a667416ad7e4a7c2f.jar" />
+    </item>
+    <item
+        jar="/Users/babusr/Documents/Android/AndroidDevelopment/MySimpleTweets/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.0/libs/internal_impl-21.0.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="1609e6d42d0480b0f4188e2c29f75388fa12a8f0">
+        <dex dex="/Users/babusr/Documents/Android/AndroidDevelopment/MySimpleTweets/app/build/intermediates/pre-dexed/debug/internal_impl-21.0.0-4a7c5adac4f446756ae7d0243440cb37c8b0d944.jar" />
+    </item>
+    <item
+        jar="/Users/babusr/Documents/Android/AndroidDevelopment/MySimpleTweets/app/libs/scribe-codepath-0.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="a580d06de954001f787e8d024bfcf931fe30bdda">
+        <dex dex="/Users/babusr/Documents/Android/AndroidDevelopment/MySimpleTweets/app/build/intermediates/pre-dexed/debug/scribe-codepath-0.0.3-784e95ea9fe99d9e58c472cb3968a9d11a334948.jar" />
+    </item>
+    <item
+        jar="/Users/babusr/Documents/Android/AndroidDevelopment/MySimpleTweets/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="95fd37732ec852e99f07eeb516a3650172f1d136">
+        <dex dex="/Users/babusr/Documents/Android/AndroidDevelopment/MySimpleTweets/app/build/intermediates/pre-dexed/debug/classes-1b970df0e3f667443ae363d24a254717beb8f841.jar" />
+    </item>
+    <item
+        jar="/Users/babusr/Documents/Android/AndroidDevelopment/MySimpleTweets/app/libs/codepath-utils.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="10901a5ef726eacf1b2443b7f38dc4cc9cd3f7d4">
+        <dex dex="/Users/babusr/Documents/Android/AndroidDevelopment/MySimpleTweets/app/build/intermediates/pre-dexed/debug/codepath-utils-ca575d92374e031c6b6f7b365ea0191d930b5a35.jar" />
+    </item>
+    <item
+        jar="/Users/babusr/.gradle/caches/modules-2/files-2.1/com.squareup.picasso/picasso/2.4.0/f36d2d4e3a36b3259aaf9d004d29b4cdc6c1bfb2/picasso-2.4.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="f36d2d4e3a36b3259aaf9d004d29b4cdc6c1bfb2">
+        <dex dex="/Users/babusr/Documents/Android/AndroidDevelopment/MySimpleTweets/app/build/intermediates/pre-dexed/debug/picasso-2.4.0-ebbc18965ed48157b8333a9eb2982f94fc5ec0ac.jar" />
+    </item>
+    <item
+        jar="/Users/babusr/Documents/Android/AndroidDevelopment/MySimpleTweets/app/libs/codepath-oauth-0.4.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="e2bf2d92cfe90d44287c510d955d0c979631e99e">
+        <dex dex="/Users/babusr/Documents/Android/AndroidDevelopment/MySimpleTweets/app/build/intermediates/pre-dexed/debug/codepath-oauth-0.4.1-b993d7f01d4a1bdf34fc78515eab7fd8325cf38a.jar" />
+    </item>
+    <item
+        jar="/Users/babusr/Documents/Android/AndroidDevelopment/MySimpleTweets/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="686344a780033e4ba22b926cd225f8d4941247e6">
+        <dex dex="/Users/babusr/Documents/Android/AndroidDevelopment/MySimpleTweets/app/build/intermediates/pre-dexed/debug/classes-9b026c74fb329a30ed23427d1868ab4e4a7e7b3b.jar" />
+    </item>
+
+</items>

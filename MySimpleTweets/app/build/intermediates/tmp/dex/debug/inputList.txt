@@ -1,0 +1,11 @@
+/Users/babusr/Documents/Android/AndroidDevelopment/MySimpleTweets/app/build/intermediates/classes/debug
+/Users/babusr/Documents/Android/AndroidDevelopment/MySimpleTweets/app/build/intermediates/pre-dexed/debug/support-annotations-21.0.0-ecf1b2f65460d346b83e0471b8cb38520a6d87c3.jar
+/Users/babusr/Documents/Android/AndroidDevelopment/MySimpleTweets/app/build/intermediates/pre-dexed/debug/codepath-utils-ca575d92374e031c6b6f7b365ea0191d930b5a35.jar
+/Users/babusr/Documents/Android/AndroidDevelopment/MySimpleTweets/app/build/intermediates/pre-dexed/debug/codepath-oauth-0.4.1-b993d7f01d4a1bdf34fc78515eab7fd8325cf38a.jar
+/Users/babusr/Documents/Android/AndroidDevelopment/MySimpleTweets/app/build/intermediates/pre-dexed/debug/activeandroid-3.1.0-SNAPSHOT-1f5b6dd73c331445176f853a667416ad7e4a7c2f.jar
+/Users/babusr/Documents/Android/AndroidDevelopment/MySimpleTweets/app/build/intermediates/pre-dexed/debug/scribe-codepath-0.0.3-784e95ea9fe99d9e58c472cb3968a9d11a334948.jar
+/Users/babusr/Documents/Android/AndroidDevelopment/MySimpleTweets/app/build/intermediates/pre-dexed/debug/android-async-http-1.4.6-c07408333372aeab89bea7d84482f36e39e97076.jar
+/Users/babusr/Documents/Android/AndroidDevelopment/MySimpleTweets/app/build/intermediates/pre-dexed/debug/picasso-2.4.0-ebbc18965ed48157b8333a9eb2982f94fc5ec0ac.jar
+/Users/babusr/Documents/Android/AndroidDevelopment/MySimpleTweets/app/build/intermediates/pre-dexed/debug/internal_impl-21.0.0-4a7c5adac4f446756ae7d0243440cb37c8b0d944.jar
+/Users/babusr/Documents/Android/AndroidDevelopment/MySimpleTweets/app/build/intermediates/pre-dexed/debug/classes-1b970df0e3f667443ae363d24a254717beb8f841.jar
+/Users/babusr/Documents/Android/AndroidDevelopment/MySimpleTweets/app/build/intermediates/pre-dexed/debug/classes-9b026c74fb329a30ed23427d1868ab4e4a7e7b3b.jar
