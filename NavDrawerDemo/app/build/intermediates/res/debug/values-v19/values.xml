@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/Users/babusr/Documents/Android/AndroidDevelopment/NavDrawerDemo/app/src/main/res/values-v19/styles.xml -->
+    <eat-comment/>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="android:windowTranslucentStatus">true</item>
+    </style>
+</resources>

@@ -1,0 +1,9 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <gradient
+        android:startColor="@android:color/holo_orange_dark"
+        android:endColor="@android:color/holo_orange_dark"
+        android:angle="90" />
+</shape>
+
+<!-- From: file:/Users/babusr/Documents/Android/AndroidDevelopment/NavDrawerDemo/app/src/main/res/drawable/list_item_bg_pressed.xml -->

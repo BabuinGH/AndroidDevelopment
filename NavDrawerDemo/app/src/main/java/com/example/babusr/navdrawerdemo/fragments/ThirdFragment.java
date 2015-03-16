@@ -1,5 +1,7 @@
 package com.example.babusr.navdrawerdemo.fragments;
 
 
-public class ThirdFragment {
+import android.support.v4.app.Fragment;
+
+public class ThirdFragment extends Fragment{
 }

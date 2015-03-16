@@ -1,0 +1,5 @@
+/Users/babusr/Documents/Android/AndroidDevelopment/NavDrawerDemo/app/build/intermediates/classes/debug
+/Users/babusr/Documents/Android/AndroidDevelopment/NavDrawerDemo/app/build/intermediates/pre-dexed/debug/support-annotations-21.0.3-6873cb211d00e76b871d03b3734fa94ebd4b1060.jar
+/Users/babusr/Documents/Android/AndroidDevelopment/NavDrawerDemo/app/build/intermediates/pre-dexed/debug/internal_impl-21.0.3-095c6e31b3a2e9e95042b6809de77787b2857165.jar
+/Users/babusr/Documents/Android/AndroidDevelopment/NavDrawerDemo/app/build/intermediates/pre-dexed/debug/classes-9ff522bb3676b0e0e262d96ee5926e53134005b1.jar
+/Users/babusr/Documents/Android/AndroidDevelopment/NavDrawerDemo/app/build/intermediates/pre-dexed/debug/classes-6e65e7ae93fbeb32c5c6c06f83602f084b9165d0.jar
