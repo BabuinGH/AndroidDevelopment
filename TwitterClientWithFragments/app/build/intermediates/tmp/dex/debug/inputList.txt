@@ -1,0 +1,11 @@
+/Users/babusr/Documents/Android/AndroidDevelopment/TwitterClientWithFragments/app/build/intermediates/classes/debug
+/Users/babusr/Documents/Android/AndroidDevelopment/TwitterClientWithFragments/app/build/intermediates/pre-dexed/debug/support-annotations-21.0.0-ecf1b2f65460d346b83e0471b8cb38520a6d87c3.jar
+/Users/babusr/Documents/Android/AndroidDevelopment/TwitterClientWithFragments/app/build/intermediates/pre-dexed/debug/codepath-utils-7c5a03b9a81e3254ddf73c899ceab0c3d3e3a85e.jar
+/Users/babusr/Documents/Android/AndroidDevelopment/TwitterClientWithFragments/app/build/intermediates/pre-dexed/debug/codepath-oauth-0.4.1-1cae38d5064e26f1c0bc00c095e4acf9e7182665.jar
+/Users/babusr/Documents/Android/AndroidDevelopment/TwitterClientWithFragments/app/build/intermediates/pre-dexed/debug/activeandroid-3.1.0-SNAPSHOT-1f5b6dd73c331445176f853a667416ad7e4a7c2f.jar
+/Users/babusr/Documents/Android/AndroidDevelopment/TwitterClientWithFragments/app/build/intermediates/pre-dexed/debug/scribe-codepath-0.0.3-3a3c0c505e4fb6134afd4322bd8515d9dc6b4fb4.jar
+/Users/babusr/Documents/Android/AndroidDevelopment/TwitterClientWithFragments/app/build/intermediates/pre-dexed/debug/android-async-http-1.4.6-c07408333372aeab89bea7d84482f36e39e97076.jar
+/Users/babusr/Documents/Android/AndroidDevelopment/TwitterClientWithFragments/app/build/intermediates/pre-dexed/debug/picasso-2.4.0-ebbc18965ed48157b8333a9eb2982f94fc5ec0ac.jar
+/Users/babusr/Documents/Android/AndroidDevelopment/TwitterClientWithFragments/app/build/intermediates/pre-dexed/debug/internal_impl-21.0.0-1841655d18cd81b9830f4e83a6c469425359d828.jar
+/Users/babusr/Documents/Android/AndroidDevelopment/TwitterClientWithFragments/app/build/intermediates/pre-dexed/debug/classes-fd89de52c98db5999b062ff7169307ae85d8cd51.jar
+/Users/babusr/Documents/Android/AndroidDevelopment/TwitterClientWithFragments/app/build/intermediates/pre-dexed/debug/classes-7e93a1ad6dc3858b86d812f917ef79b5ab4fe2f3.jar
